@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="mazda_787b.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+      <button class="Hotspot" slot="hotspot-1" data-position="0.7788454272178046m 0.3567536585666471m 2.1438076038187472m" data-normal="-0.0009213188784366029m 0.8332643131679278m 0.5528740684570997m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Head Light</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="-0.09865636363836294m 0.801626675246723m -2.1400636593467888m" data-normal="0m 0.999999542817031m -0.000956224727233765m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Spoiler</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.7885134376473647m 0.279641890290682m -1.2495627627258235m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Rim</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.053263077720205554m 0.3874354891088654m 2.0925473261258443m" data-normal="0.0005913612406961692m 0.8339593492480052m 0.5518255649149709m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Hood
+          </div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="0.8449808344289766m 0.8738271932576638m 1.3424641383565188m" data-normal="0.9853623752027525m -0.05755093172945032m 0.16046457488138097m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Mirror</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
