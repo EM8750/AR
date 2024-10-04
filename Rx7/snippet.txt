@@ -1,0 +1,26 @@
+<model-viewer src="mazda rx-7.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-2" data-position="-350.5237541514083m 157.18303445527587m -33.41646173422927m" data-normal="-0.135662364763888m 0.9907465790448068m 0.004115689211132098m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Hood</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-403.30964602647384m 145.41015447985907m 40.35485769173191m" data-normal="-0.37050102013782044m 0.921185047279806m 0.11894159383889209m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pop Light</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="84.78312945797482m 185.51721819907863m -50.79690390025571m" data-normal="0.03989897312549608m 0.9992037189399889m -1.627909482968142e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Spoiler</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="102.78605753355134m 152.4987778548621m 35.3113067964336m" data-normal="0.9204617455487655m 0.10068626592165061m 0.37764063716193774m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Taillight</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-344.0330750310396m 106.30894977961087m -155.6858750836994m" data-normal="0.003471717716323144m 0.14334409784319058m -0.9896668211017383m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Rim</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-199.12640657744424m 174.3552584761822m -159.47957977055188m" data-normal="0.8392836185722387m 0.020322912422955718m 0.543313893460252m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mirror</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="94.85824581819654m 90.56798936682472m -115.02282369435352m" data-normal="0.9999820494224183m -0.000986145260584788m -0.005910021189928525m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Exhaust Pipe</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
