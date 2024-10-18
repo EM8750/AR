@@ -1,0 +1,14 @@
+<model-viewer src="Ẽfini.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.03421491043636819m 0.043533392208987234m 0.0001633255237339808m" data-normal="0.9923594601183302m -0.0028054250183992347m 0.1233484150855719m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ẽfini</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
